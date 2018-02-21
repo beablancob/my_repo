@@ -4,7 +4,9 @@
 function cube() {
 	var num = document.getElementById("n1");
 num.value = Math.pow(num.value, 3); }
-
+function fourthPower() {
+	var num = document.getElementById("n1");
+num.value = Math.pow(num.value, 4); }
 
 </script>
  </head>
@@ -13,7 +15,7 @@ num.value = Math.pow(num.value, 3); }
 Number:
 
 <input type="text" id="n1">
-
+<button onclick="fourthPower()"> x^4 </button> 
 <button onclick="cube()"> x^3 </button> 
 </body>
 </html>
